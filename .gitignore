@@ -1,0 +1,29 @@
+# 不需要的东西
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本地配置 / 凭据 —— 绝对不能提交
+*.token
+.env
+config.local.*
+credentials.json
+
+# 采集到的数据（因账号而异）
+*缓存.json
+*_cache.json
+
+# 日志 / 临时输出
+*.log
+*.pcap
+截图/
+现场_*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

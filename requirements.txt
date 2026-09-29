@@ -1,0 +1,4 @@
+# 运行依赖
+uiautomator2>=3.0.0
+adbutils>=2.0.0
+requests>=2.28.0
